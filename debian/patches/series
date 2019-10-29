@@ -10,3 +10,4 @@ local.disable-algol68-detection.patch
 CVE-2018-10360.patch
 CVE-2019-8905_8907.patch
 CVE-2019-8906.patch
+CVE-2019-18218.patch

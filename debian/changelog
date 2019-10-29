@@ -1,3 +1,12 @@
+file (1:5.32-2ubuntu0.3) bionic-security; urgency=medium
+
+  * SECURITY UPDATE: buffer overflow via CDF_VECTOR elements
+    - debian/patches/CVE-2019-18218.patch: limit the number of elements in
+      a vector in src/cdf.*.
+    - CVE-2019-18218
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 29 Oct 2019 12:50:19 -0400
+
 file (1:5.32-2ubuntu0.2) bionic-security; urgency=medium
 
   * SECURITY UPDATE: overflows in do_core_note
