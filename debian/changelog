@@ -1,3 +1,11 @@
+file (1:5.32-2ubuntu0.4) bionic-security; urgency=medium
+
+  * SECURITY REGRESSION: truncated interpreter name (LP: #1835596)
+    - debian/patches/CVE-2019-8905_8907.patch: updated to use correct
+      length in src/readelf.c.
+
+ -- Marc Deslauriers <marc.deslauriers@ubuntu.com>  Tue, 12 May 2020 09:31:09 -0400
+
 file (1:5.32-2ubuntu0.3) bionic-security; urgency=medium
 
   * SECURITY UPDATE: buffer overflow via CDF_VECTOR elements
